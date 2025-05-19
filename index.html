@@ -1,0 +1,497 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Joshitha Shaga Portfolio</title>
+    <link rel="stylesheet" href="css/site.css">
+<style>
+
+</style>
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Joshitha Shaga - DevOps Portfolio</title>
+  <link rel="icon" type="image/png" href="/images/cartooon-avatar.png" />
+  <link href="https://api.fontshare.com/v2/css?f[]=satoshi@400,500,700,800,900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" />
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+  <style>
+    body {
+      font-family: 'Satoshi', sans-serif;
+      background-color: #fefaf7;
+      scroll-behavior: smooth;
+    }
+
+    .navbar-brand {
+      font-weight: 800;
+      font-size: 1.3rem;
+    }
+
+    .navbar-nav .nav-link {
+      margin-right: 15px;
+      font-weight: 500;
+    }
+
+    .nav-link:hover {
+      color: #007bff !important;
+    }
+
+    .navbar-icons i {
+      font-size: 1.25rem;
+      color: #000;
+    }
+
+    .footer {
+      background-color: #f8f9fa;
+    }
+
+    .footer p {
+      margin: 0;
+    }
+
+    .progress-bar {
+      width: 100%;
+      background: #e0e0e0;
+      border-radius: 6px;
+      overflow: hidden;
+      height: 10px;
+    }
+
+    .progress-fill {
+      height: 100%;
+      background-color: #000205;
+      transition: width 0.8s ease-in-out;
+    }
+
+    .project-tags .tag {
+      display: inline-block;
+      background: #eee;
+      padding: 2px 8px;
+      margin: 2px;
+      border-radius: 4px;
+      font-size: 0.85rem;
+    }
+
+    .cert-logo {
+      width: 100px;
+      height: auto;
+      margin-bottom: 10px;
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  <nav class="navbar navbar-expand-lg fixed-top shadow-sm" style="background-color: #f1f1ef;">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#intro">Joshitha Shaga</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse justify-content-between" id="navbarNav">
+        <ul class="navbar-nav">
+          <li class="nav-item"><a class="nav-link text-dark" href="#about">About</a></li>
+          <li class="nav-item"><a class="nav-link text-dark" href="#work">Work</a></li>
+          <li class="nav-item"><a class="nav-link text-dark" href="#projects">Projects</a></li>
+          <li class="nav-item"><a class="nav-link text-dark" href="#contact">Contact</a></li>
+        </ul>
+        <div class="d-flex gap-3 navbar-icons">
+          <a href="https://www.linkedin.com/in/shagajoshitha/" target="_blank"><i class="fab fa-linkedin-in"></i></a>
+          <a href="https://github.com/Sjoshi1309" target="_blank"><i class="fab fa-github"></i></a>
+        </div>
+      </div>
+    </div>
+  </nav>
+</header>
+<main class="container" style="padding-top: 100px; padding-bottom: 80px;">
+
+<!-- 🌟 Intro Section -->
+<section id="intro">
+  <p>Hi, my name is</p>
+  <h1>Joshitha Shaga <span class="wave">👋</span></h1>
+  <div style="height: 50px;">
+    <h2 id="typewriter-text" class="typewriter-line"> A DevOps Engineer Passionate about automation, cloud and creativity!</h2>
+  </div>
+  <a href="https://github.com/Sjoshi1309" target="_blank" rel="noopener noreferrer" class="intro-btn">Explore My Projects</a>
+  <a href="#about" class="mt-4 text-decoration-none text-muted scroll-down">▼ Scroll down</a>
+</section>
+
+<!-- 🧑‍💻 About Section -->
+<section id="about" class="about-section" data-aos="fade-up">
+    <div class="about-grid">
+        <!-- Left: Image + Overview -->
+        <div class="about-left">
+            <img src="images/myimage.jpg" alt="Joshitha's Photo" class="profile-pic" />
+            <div class="about-overview">
+                <h2 class="satoshi-heading">Overview</h2>
+                <ul class="overview-points">
+                    <li style="font-size: 1.0rem; font-weight: 500;">
+                       ➤ DevOps Engineer with 4+ years of experience streamlining infrastructure operations, automating deployment pipelines, and supporting large-scale system reliability initiatives. Skilled in CI/CD, DevSecOps, GitOps (Argo CD), Terraform, Docker, and Kubernetes for efficient deployments.
+                    </li>
+                    <li style="font-size: 1.0rem; font-weight: 500;">➤ Proven ability to build robust workflows and address real-time challenges in pipeline security, cost efficiency, and scalability.</li>
+                    <li style="font-size: 1.0rem; font-weight: 500;">➤ Outside of tech, I enjoy Journaling, Content writing, staying organized, and exploring new places.</li>
+                </ul>
+            </div>
+        </div>
+        <!-- Right: Skills (with #skills for animation trigger) -->
+        <section id="skills" class="about-right" data-aos="fade-up">
+            <h2 class="satoshi-heading">Skills</h2>
+            <div class="skills-col">
+                <div class="skill">
+                    <p>Cloud Providers (AWS, Azure, GCP) <span>85%</span></p>
+                    <div class="progress-bar"><div class="progress-fill" data-percent="85"></div></div>
+                </div>
+                <div class="skill">
+                    <p>Infrastructure as Code (Terraform, Helm) <span>80%</span></p>
+                    <div class="progress-bar"><div class="progress-fill" data-percent="80"></div></div>
+                </div>
+                <div class="skill">
+                    <p>CI/CD & GitOps (Azure Devops,GitHub Actions, Argo CD) <span>85%</span></p>
+                    <div class="progress-bar"><div class="progress-fill" data-percent="85"></div></div>
+                </div>
+                <div class="skill">
+                    <p>Containerization & Orchestration (Docker, Kubernetes, AKS) <span>85%</span></p>
+                    <div class="progress-bar"><div class="progress-fill" data-percent="85"></div></div>
+                </div>
+                <div class="skill">
+                    <p>Monitoring & Logging (Prometheus, Grafana, Azure Monitor)  <span>80%</span></p>
+                    <div class="progress-bar"><div class="progress-fill" data-percent="80"></div></div>
+                </div>
+                <div class="skill">
+                    <p>DevSecOps & Security (Trivy, Snyk, IAM) <span>85%</span></p>
+                    <div class="progress-bar"><div class="progress-fill" data-percent="85"></div></div>
+                </div>
+            </div>
+        </section>
+    </div>
+</section>
+
+<!-- 💼 Work Section -->
+<section id="work" class="work-section">
+
+  <!-- 🔹 Experience -->
+  <h2 class="experience-heading">Experience</h2>
+  <div class="heading-underline"></div>
+
+  <div class="experience-row" data-aos="fade-up">
+    <div class="experience-card">
+      <h4 class="experience-duration">July 2024 – Present</h4>
+      <h3 class="experience-role">Uber</h3>
+      <p class="experience-company">DevOps Engineer</p>
+      <ul class=" experience-list">
+        <li>•	Designed and deployed CI/CD pipelines in GCP and AWS using Bitbucket, Cloud Build, and Docker to streamline application delivery across environments</li>
+        <li>• Automated AKS cluster provisioning with Terraform, Helm, and GitOps workflows (Argo CD) for consistent and repeatable deployments.</li>
+        <li>•	Monitored infrastructure using Grafana and CloudWatch; managed AWS services (ECS, EC2, S3) with secure configurations via IAM and CloudFormation.<li>
+      </ul>
+    </div>
+
+    <div class="experience-card">
+      <h4 class="experience-duration">Jul 2022 - Dec 2022 </h4>
+      <h3 class="experience-role">Genius SoftTech</h3>
+      <p class="experience-company">Azure DevOps Engineer</p>
+      <ul class="experience-list">
+        <li>•	Created custom GitHub Actions runners with embedded scanning tools (Trivy, Checkov) and secrets management via GitHub OIDC + AWS IAM roles</li>
+        <li>• Designed and deployed Azure Virtual Networks (VNets), subnets, DNS zones, and Network Security Groups (NSGs) to enterprise SaaS applications.</li>
+        <li>•	Engineered and supported CI/CD pipelines using GitHub Actions and Docker, reducing deployment rollbacks by 60%.</li>
+      </ul>
+    </div>
+
+    <div class="experience-card">
+      <h4 class="experience-duration">Oct 2020 - Jun 2022</h4>
+      <h3 class="experience-role">Capgemini</h3>
+      <p class="experience-company">DevOps Software Engineer</p>
+      <ul class="experience-list">
+        <li>•	Streamlined infrastructure using Terraform modules, ARM templates, and Azure DevOps pipelines for consistent, secure deployments across environments.</li>
+        <li>•	Enhanced observability by integrating Azure Monitor, Log Analytics, and Application Insights into .NET apps, enabling proactive issue tracking with KQL alerts</li>
+        <li>•	Automated testing and deployments with Dockerized Jenkins pipelines, GitHub Actions, and Azure Functions, enabling dynamic CI/CD and event-driven workflows.</li>
+      </ul>
+    </div>
+
+    <div class="experience-card">
+      <h4 class="experience-duration">Jan 2022 - Sep 2022</h4>
+      <h3 class="experience-role">Hexaware Tech</h3>
+      <p class="experience-company">Site Reliability Engineer</p>
+      <ul class="experience-list">
+        <li>•	Assisted in constructing CI/CD pipelines using Jenkins, Terraform, and Docker, reducing deployment cycles from 60 minutes to under 15 minutes across critical services</li>
+        <li>•	Analyzed system performance using Grafana and CloudWatch logs, implemented threshold-based alerts and anomaly detection rules to identify service slowdowns before outages occurred.</li>
+      </ul>
+    </div>
+  </div>
+
+  <!-- 🎓 Education -->
+  <h2 class="experience-heading" style="margin-top: 80px;">Education</h2>
+  <div class="heading-underline"></div>
+
+  <div class="education-row" data-aos="fade-up">
+    <div class="education-card">
+      <h4 class="education-duration">Jan 2023 – Dec 2024</h4>
+      <h3 class="education-degree">University of Dayton</h3>
+      <p class="education-institute">Master of Science in Computer Science</p>
+      <p class="education-details">Certification in Autonomous Systems and Data Science</p>
+    </div>
+
+    <div class="education-card">
+      <h4 class="education-duration">Aug 2016 – Sep 2020</h4>
+      <h3 class="education-degree">Malla Reddy College of Engineering & Technology</h3>
+      <p class="education-institute">Bachelor of Engineering in ECE</p>
+    </div>
+  </div>
+
+  <!-- 🏅 Certifications + Resume Button in Grid -->
+  <div class="about-grid certification-grid">
+    <!-- Left: Certifications -->
+    <div class="about-left" data-aos="fade-up">
+      <h2 class="experience-heading" style="margin-top: 80px;">Certifications</h2>
+      <div class="heading-underline"></div>
+      <div class="certification-row">
+        <div class="certification-card">
+          <img src="images/Azure.png" alt="Azure Admin" class="cert-logo">
+        </div>
+        <div class="certification-card">
+          <img src="images/AzureFun.png" alt="Azure Fundamentals" class="cert-logo">
+        </div>
+        <div class="certification-card">
+          <img src="images/AWS.png" alt="AWS Cloud Practitioner" class="cert-logo">
+        </div>
+      </div>
+    </div>
+
+    <!-- Right: Resume Button -->
+    <div class="aboutC-right" data-aos="fade-up">
+      <a href="images/your_resume.pdf" class="resume-btn" download>📄 Download Resume</a>
+    </div>
+  </div>
+
+</section>
+
+<!-- 🛠️ Projects Section -->
+<section id="projects" class="project-list-section" style="margin-bottom: 40px;">
+  <h2 class="text-center satoshi-heading">DevOps Projects Showcase</h2>
+  <div class="heading-underline"></div>
+
+  <div class="project-item" data-aos="fade-up">
+    <div class="project-date">April 2, 2025</div>
+    <div class="project-details">
+      <h4 class="project-title">
+       <a href="https://github.com/Sjoshi1309/DevOpsified_implementation" target="_blank" style="text-decoration: none; color: inherit;">Full Stack DevOps Implementation on AWS EKS: Go App + CI/CD with GitHub Actions & Argo CD</a>
+      </h4>
+      <div class="project-tags">
+        <span class="tag">Golang</span>
+        <span class="tag">Argo CD</span>
+        <span class="tag">Ingress-NGINX</span>
+        <span class="tag">EKS</span>
+        <span class="tag">DNS</span>
+        <span class="tag">Docker (multi-stage builds)</span>
+        <span class="tag">GitHub Actions</span>
+      </div>
+      <p class="project-desc">
+        This project focuses on a complete DevOps lifecycle implementation for a Golang web application — from source code to deployment on AWS EKS using industry-standard tools like Docker, GitHub Actions, Argo CD, and Helm.
+      </p>
+    </div>
+  </div>
+
+  <div class="project-item" data-aos="fade-up">
+    <div class="project-date">March 31, 2025</div>
+    <div class="project-details">
+      <h4 class="project-title">
+        <a href="https://github.com/Sjoshi1309?tab=repositories" target="_blank" style="text-decoration: none; color: inherit;">End-to-End DevSecOps Pipeline Implementation with Kubernetes & GitOps</a>
+      </h4>
+      <div class="project-tags">
+        <span class="tag">Terraform</span>
+        <span class="tag">ESLint</span>
+        <span class="tag">Docker</span>
+        <span class="tag">Trivy</span>
+        <span class="tag">ELK Stack</span>
+        <span class="tag">Kubernetes</span>
+        <span class="tag">Prometheus</span>
+        <span class="tag">Grafana</span>
+      </div>
+      <p class="project-desc">
+        This project demonstrates a full-fledged DevSecOps pipeline implemented by integrating various tools and practices to ensure security, automation, and efficiency throughout the software development lifecycle.
+      </p>
+    </div>
+  </div>
+
+  <div class="project-item" data-aos="fade-up">
+    <div class="project-date">March 26, 2025</div>
+    <div class="project-details">
+      <h4 class="project-title">
+        <a href="https://github.com/Sjoshi1309/End-to-End-Azure-Monitoring-URL-Tests-Logs-Alerts-Insights" target="_blank" style="text-decoration: none; color: inherit;">Real-Time Azure Monitoring: Logs, Metrics, Alerts, URL Ping Tests, and Availability Insights</a>
+      </h4>
+      <div class="project-tags">
+        <span class="tag">Azure Monitor</span>
+        <span class="tag">Application Insights</span>
+        <span class="tag">Log Analytical Workspace</span>
+        <span class="tag">Alerting</span>
+        <span class="tag">cost optimization</span>
+        <span class="tag">Dashboards</span>
+      </div>
+      <p class="project-desc">
+        This project walks through various Azure services to provide real-time observability, alerting, and diagnostics for applications and infrastructure to achieve comprehensive observability, ensuring applications are reliable, performant, and secure.
+      </p>
+    </div>
+  </div>
+  <div class="explore-wrapper" data-aos="zoom-in">
+    <a href="https://github.com/Sjoshi1309?tab=repositories" class="explore-projects-btn" target="_blank" rel="noopener noreferrer">📁 Explore All Projects</a>
+  </div>
+ 
+</section>
+
+<!-- 📬 Contact Section -->
+<section id="contact" class="contact-section" data-aos="fade-up">
+  <h2 class="text-center satoshi-heading">Contact Me</h2>
+  <div class="heading-underline"></div>
+  <div class="contact-container">
+    <div class="contact-block">
+      <div class="icon-circle"><i class="fas fa-map-signs"></i></div>
+      <h4 class="contact-title">ADDRESS</h4>
+      <p class="contact-text">Dayton, Ohio, USA</p>
+    </div>
+    <div class="contact-block">
+      <div class="icon-circle"><i class="fas fa-phone-alt"></i></div>
+      <h4 class="contact-title">CONTACT NUMBER</h4>
+      <p class="contact-text">+1 937 242 5289</p>
+    </div>
+    <div class="contact-block">
+      <div class="icon-circle"><i class="fas fa-paper-plane"></i></div>
+      <h4 class="contact-title">EMAIL ADDRESS</h4>
+      <p class="contact-text">joshithashaga019@gmail.com</p>
+    </div>
+  </div>
+</section>
+        </main>
+    </div>
+
+    <footer class="border-top footer text-muted mt-4 fixed">
+        <div class="container text-center">
+            &copy; 2025 - Versioned with Git, deployed with DevOps dreams ☁️⚙️
+        </div>
+    </footer>
+
+    <!-- 📦 Scripts -->
+    <script src="~/lib/jquery/dist/jquery.min.js"></script>
+    <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="~/js/site.js" asp-append-version="true"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init({ duration: 800, once: true });
+    </script>
+
+    @await RenderSectionAsync("Scripts", required: false)
+
+    <!-- ✨ Typing Animation -->
+    <script>
+        const lines = [
+
+            " I'm a DevOps Engineer specializing in cloud infrastructure, CI/CD pipelines, and automation Currently focused on deploying reliable, scalable, and secure cloud-based systems."
+        ];
+        let lineIndex = 0, charIndex = 0;
+        const speed = 50, lineDelay = 600;
+
+        function typeWriter() {
+            if (lineIndex < lines.length) {
+                const currentText = lines[lineIndex];
+                if (charIndex < currentText.length) {
+                    document.getElementById("typing-text").innerHTML += currentText.charAt(charIndex++);
+                    setTimeout(typeWriter, speed);
+                } else {
+                    document.getElementById("typing-text").innerHTML += "<br>";
+                    lineIndex++; charIndex = 0;
+                    setTimeout(typeWriter, lineDelay);
+                }
+            }
+        }
+
+        document.addEventListener("DOMContentLoaded", typeWriter);
+    </script>
+
+    <!-- 📊 Skills Progress Bar Animation -->
+    <script>
+        function animateProgressBars() {
+            const fills = document.querySelectorAll(".progress-fill");
+            fills.forEach(fill => {
+                const target = parseInt(fill.getAttribute("data-percent"));
+                fill.style.width = "0%";
+                if (!fill.classList.contains("animated")) {
+                    fill.classList.add("animated");
+                    let current = 0;
+                    const animate = () => {
+                        if (current <= target) {
+                            fill.style.width = current + "%";
+                            current++;
+                            requestAnimationFrame(animate);
+                        }
+                    };
+                    animate();
+                }
+            });
+        }
+
+        function isInViewport(el) {
+            const rect = el.getBoundingClientRect();
+            return rect.top <= window.innerHeight && rect.bottom >= 0;
+        }
+
+        function handleScroll() {
+            const skillsSection = document.getElementById("skills");
+            if (skillsSection && isInViewport(skillsSection)) {
+                animateProgressBars();
+                window.removeEventListener("scroll", handleScroll);
+            }
+        }
+
+        window.addEventListener("scroll", handleScroll);
+        window.addEventListener("load", handleScroll);
+    </script>
+
+    <!-- 🧊 Fade-out avatar when scrolled past intro -->
+    <script>
+        window.addEventListener("scroll", function () {
+            const avatar = document.querySelector('.avatar-img');
+            const aboutSection = document.getElementById('about');
+            if (!avatar || !aboutSection) return;
+
+            const aboutTop = aboutSection.getBoundingClientRect().top;
+
+            if (aboutTop < window.innerHeight * 0.7) {
+                avatar.classList.add("fade-out");
+            } else {
+                avatar.classList.remove("fade-out");
+            }
+        });
+    </script>
+    <script>
+     const words = ["automation", "cloud", "creativity"];
+  let wordIndex = 0;
+  let typing = true;
+
+  const wordElement = document.getElementById("typewriter-word");
+
+  function cycleWords() {
+    const currentWord = words[wordIndex];
+
+    if (typing) {
+      wordElement.textContent = currentWord.substring(0, charIndex + 1);
+      charIndex++;
+      if (charIndex === currentWord.length) {
+        typing = false;
+        setTimeout(cycleWords, 1200);
+        return;
+      }
+    } else {
+      wordElement.textContent = currentWord.substring(0, charIndex - 1);
+      charIndex--;
+      if (charIndex === 0) {
+        typing = true;
+        wordIndex = (wordIndex + 1) % words.length;
+      }
+    }
+
+    setTimeout(cycleWords, typing ? 100 : 60);
+  }
+
+  document.addEventListener("DOMContentLoaded", cycleWords);
+   </script>
+
+</body>
